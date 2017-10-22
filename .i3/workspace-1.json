@@ -1,0 +1,143 @@
+// vim:ts=4:sw=4:et
+{
+    // this is a manually added container to restore the vertical split
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+
+        {
+            // splith split container with 2 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.6,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 412,
+                       "width": 644,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "harold@ACEHunter3-ArchVM:~",
+                    "percent": 0.6,
+                    "swallows": [
+                       {
+                          "class": "^XTerm$",
+                          "instance": "^top_left$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    // splitv split container with 2 children
+                    "border": "pixel",
+                    "floating": "auto_off",
+                    "layout": "splitv",
+                    "percent": 0.4,
+                    "type": "con",
+                    "nodes": [
+                        {
+                            "border": "pixel",
+                            "current_border_width": 1,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 412,
+                               "width": 644,
+                               "x": 0,
+                               "y": 0
+                            },
+                            "name": "harold@ACEHunter3-ArchVM:~",
+                            "percent": 0.6,
+                            "swallows": [
+                               {
+                                  "class": "^XTerm$",
+                                  "instance": "^top_right$"
+                               }
+                            ],
+                            "type": "con"
+                        },
+                        {
+                            "border": "pixel",
+                            "current_border_width": 1,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 412,
+                               "width": 644,
+                               "x": 0,
+                               "y": 0
+                            },
+                            "name": "harold@ACEHunter3-ArchVM:~",
+                            "percent": 0.4,
+                            "swallows": [
+                               {
+                                  "class": "^XTerm$",
+                                  "instance": "^mid_right$"
+                               }
+                            ],
+                            "type": "con"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            // splith split container with 2 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.4,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 412,
+                       "width": 644,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "harold@ACEHunter3-ArchVM:~",
+                    "percent": 0.8,
+                    "swallows": [
+                       {
+                          "class": "^XTerm$",
+                          "instance": "^bottom_left$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 412,
+                       "width": 644,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "harold@ACEHunter3-ArchVM:~",
+                    "percent": 0.2,
+                    "swallows": [
+                       {
+                          "class": "^XTerm$",
+                          "instance": "^bottom_right$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+
+
+    ]
+}
