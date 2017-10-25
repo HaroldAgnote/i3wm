@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while true
+    do
+        archey3
+        read -t 60
+        clear
+done

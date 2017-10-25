@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cowsay Hi, Harold
+
+while true
+    do
+        read -t 60
+        cowsay $(fortune -o)
+    done
